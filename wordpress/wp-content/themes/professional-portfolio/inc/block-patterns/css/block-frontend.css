@@ -1,0 +1,163 @@
+.banner-section .banner-title{
+    font-family: "Bebas Neue", sans-serif
+}
+.banner-section .banner-title{
+    font-weight: 400;
+}
+.case-studies-section .feature-box .read-more a{
+    font-weight: 600;
+}
+.banner-section{
+    border-radius: 20px;
+}
+.banner-section .banner-content{
+    left: 23%;
+    width: 57%;
+}
+.banner-section .banner-boy img{
+    object-fit: contain;
+}
+.banner-section .banner-title:before{
+    content: "";
+    background: url(../images/border2.png) no-repeat;
+    background-position: top left;    
+    position: absolute;
+    bottom: 0;   
+    top: -4%;
+    left: -4%;
+    right: 0;   
+}
+.banner-section .banner-title:after{
+    content: "";
+    background: url(../images/border1.png) no-repeat;
+    background-position: bottom right;    
+    position: absolute;
+    bottom: 0;   
+    top: 0;
+    left: 0;
+    right: 20%; 
+}
+.banner-section img.wp-block-cover__image-background{
+    padding: 0 50px;
+    border-radius: 20px;
+}
+.case-studies-section .section-title{
+    border-radius: 18px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.case-studies-section .feature-box{
+    border-radius: 20px;
+    border-top: 20px solid #F4F000;
+}
+.case-studies-section .feature-box p:before{
+    content: "";
+    font-family: 'FontAwesome';
+    height: 10px;
+    width: 10px;
+    background: #F4F000;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.4em;
+    margin-right: 10px;
+}
+.case-studies-section .feature-box p{
+    padding-left: 20px;
+}
+.case-studies-section .feature-box .read-more a{
+    padding: 5px 45px !important;
+    border: 1px solid #F4F000;
+}
+.case-studies-section .feature-box:hover{
+    background-color: #F4F000 !important;
+}
+.case-studies-section .feature-box:hover .read-more a{
+    background: #000 !important;
+    color: #fff !important;
+}
+.case-studies-section .feature-box:hover p,.case-studies-section .feature-box:hover h3{
+    color: #000 !important;
+}
+.case-studies-section .feature-box:hover p:before{
+    background: #000 !important;
+}
+@media screen and (max-width: 991px){
+    .case-studies-section{
+        padding: 15px !important;
+    }
+    .case-studies-section .case-study{
+        gap: 1em !important;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner-section img.wp-block-cover__image-background{
+        padding: 0 !important;
+    }
+    .banner-section .banner-title{
+        font-size: 60px !important;
+        overflow: hidden;
+    }
+    .banner-section .banner-boy img,.banner-section .banner-title:before,.banner-section .banner-title:after{
+       display: none;
+    }
+    .banner-section .banner-content{
+        width: 100% !important;
+        left: 0% ;
+        text-align: center;
+    }  
+}
+@media screen and (max-width: 991px){
+    .banner-section{
+        min-height: 300px !important;
+        height: 300px !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .banner-section .banner-title{
+        font-size: 100px !important;
+    }  
+    /*.banner-section .wp-block-columns:not(.is-not-stacked-on-mobile)>.banner-boy,.wp-block-column.banner-boy.is-layout-flow.wp-block-column-is-layout-flow{
+        flex-basis: 33% !important;
+    } */
+    .banner-section .banner-col{
+        flex-wrap: nowrap !important;
+    }
+    .banner-section .banner-boy img{
+        height: 300px !important;
+    }
+    .banner-section .banner-title:before{
+        top: -25% !important;
+        left: -8%;
+    }
+    .banner-section .banner-title:after{
+        right: -10%;
+    }
+    .case-studies-section .case-study{
+        flex-wrap: nowrap !important;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .banner-section .banner-title{
+        font-size: 130px !important;
+    }   
+}
+@media screen and (min-width: 992px) and (max-width: 1600px){
+    .banner-section .banner-title:before{
+        left: -8%;
+    }
+    .banner-section .banner-title:after{
+        right: -8%;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1803px){
+    .banner-section .banner-title{
+        font-size: 140px !important;
+    }
+}
+@media screen and (max-width: 1440px){
+    .banner-section .banner-content{
+        width: auto;
+    }
+}
